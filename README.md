@@ -38,7 +38,7 @@ The path is checked against the terrain and lifted wherever it would pass within
 
 ## The notebook
 
-**[notebooks/yosemite.ipynb](notebooks/yosemite.ipynb)** walks through how the film is made, with the project's own scripts: the terrain and what forge3d's viewer actually meshes (about 11 m between vertices across the 23 km box), the granite trick on the cliffs, the flight (keyframes, speed, lens and clearance over time, drawn on a map), the evening Sun, and four frames rendered straight from forge3d and then finished. It's saved with its outputs, so it reads without running anything. To run it yourself you'll need `pixi run data` and `pixi run prep` first, plus matplotlib and Jupyter, which aren't in this project's pixi environment. Sections 1–4 need no renderer; section 5 opens the forge3d viewer.
+**[notebooks/yosemite.ipynb](notebooks/yosemite.ipynb)** walks through how the film is made, with the project's own scripts: the terrain and what forge3d's viewer actually meshes (a vertex every 11 m east–west and 6 m north–south), the granite trick on the cliffs, the flight (keyframes, speed, lens and clearance over time, drawn on a map), the evening Sun, and four frames rendered straight from forge3d and then finished. It's saved with its outputs, so it reads without running anything. To run it yourself you'll need `pixi run data` and `pixi run prep` first, plus matplotlib and Jupyter, which aren't in this project's pixi environment. Sections 1–4 need no renderer; section 5 opens the forge3d viewer.
 
 ## Layout
 
